@@ -1,0 +1,42 @@
+{
+ "assinatura": "@dimaria_barbearia",
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "fotos/2026-11-24/02-desenho-cabelo-crespo-depois-a.jpg",
+   "titulo": "Do antes ao *depois*",
+   "subtitulo": "Cada um sai daqui de um jeito novo",
+   "posicao": "center 88%"
+  },
+  {
+   "tipo": "foto",
+   "foto": "fotos/2026-11-24/04-cabelo-crespo-antes.jpg",
+   "titulo": "Antes"
+  },
+  {
+   "tipo": "foto",
+   "foto": "fotos/2026-11-24/03-desenho-cabelo-crespo-depois-b.jpg",
+   "titulo": "Depois"
+  },
+  {
+   "tipo": "foto",
+   "foto": "fotos/2026-11-24/06-cliente-trancas-antes.jpg",
+   "titulo": "Antes"
+  },
+  {
+   "tipo": "foto",
+   "foto": "fotos/2026-11-24/05-cliente-trancas-desenho-depois.jpg",
+   "titulo": "Depois"
+  },
+  {
+   "tipo": "conteudo",
+   "titulo": "Dica: traz uma *referência*",
+   "texto": "Uma foto do que você gosta ajuda muito. A gente conversa e adapta pro seu cabelo e pro seu jeito."
+  },
+  {
+   "tipo": "final",
+   "titulo": "Bora mudar o *visual*?",
+   "texto": "Agenda pelo link da bio."
+  }
+ ]
+}

@@ -4,8 +4,8 @@
 > então tudo sai com a cara da sua barbearia. O que estiver entre [colchetes] ainda não foi preenchido.
 
 ## Identidade
-- **Nome da barbearia:** [Nome da Barbearia]
-- **@ do Instagram:** [@suabarbearia]
+- **Nome da barbearia:** Di Maria Barbershop (desde 2016)
+- **@ do Instagram:** @dimaria_barbearia
 - **Cidade / bairro:** [Cidade - Bairro]
 - **Endereço:** [Rua, número]
 - **WhatsApp / link de agendamento:** [link ou número]
@@ -51,4 +51,4 @@
 - **Cor do texto:** #F5F5F5
 
 ## Hashtags fixas
-#barbearia #barber #barbeiro #[suacidade] #[suabarbearia]
+#barbearia #barbershop #dimariabarbershop #[suacidade]

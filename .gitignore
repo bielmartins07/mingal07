@@ -1,0 +1,5 @@
+# Fotos de clientes (rostos, crianças) não vão para o repositório público
+fotos/*
+!fotos/.gitkeep
+# Artes geradas a partir dessas fotos também ficam fora
+posts/20*/

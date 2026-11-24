@@ -1,0 +1,42 @@
+{
+ "assinatura": "@dimaria_barbearia",
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "fotos/2026-11-24/11-menino-platinado-desenho.jpg",
+   "titulo": "Dicas pros *pais* antes do corte",
+   "subtitulo": "Pra criançada sair daqui feliz"
+  },
+  {
+   "tipo": "foto",
+   "foto": "fotos/2026-11-24/16-menino-desenho-letra.jpg",
+   "titulo": "Escolhe um horário *tranquilo*",
+   "texto": "Criança com fome ou com sono não para quieta na cadeira.",
+   "posicao": "center 92%"
+  },
+  {
+   "tipo": "foto",
+   "foto": "fotos/2026-11-24/09-menino-desenho-onda.jpg",
+   "titulo": "Deixa ela *escolher* junto",
+   "texto": "Quando a criança ajuda a escolher o desenho, senta feliz.",
+   "posicao": "center 92%"
+  },
+  {
+   "tipo": "conteudo",
+   "numero": "✂",
+   "titulo": "Desenho dura de *1 a 2 semanas*",
+   "texto": "Depois o cabelo cresce e o traço some. Pra manter bonito, é só voltar pra retocar."
+  },
+  {
+   "tipo": "conteudo",
+   "numero": "✦",
+   "titulo": "Platinado pede *cuidado*",
+   "texto": "Shampoo próprio, hidratação e atenção com cloro de piscina, que deixa o fio amarelado."
+  },
+  {
+   "tipo": "final",
+   "titulo": "Marca quem tem um *pequeno* pra trazer",
+   "texto": "Agenda pelo link da bio."
+  }
+ ]
+}
