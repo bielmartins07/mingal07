@@ -1,0 +1,12 @@
+{
+  "assinatura": "@suabarbearia",
+  "slides": [
+    { "tipo": "capa", "titulo": "Como montar seu *preço* sem chutar", "subtitulo": "Dica pra barbeiro que quer crescer" },
+    { "tipo": "conteudo", "numero": "1", "titulo": "Some seus *custos fixos*", "texto": "Aluguel, luz, água, internet, sistema de agenda. Divida pelo número de atendimentos do mês." },
+    { "tipo": "conteudo", "numero": "2", "titulo": "Coloque o *produto* na conta", "texto": "Lâmina, pós-barba, pomada, toalha, esterilização. Cada corte gasta material." },
+    { "tipo": "conteudo", "numero": "3", "titulo": "Seu *tempo* vale dinheiro", "texto": "Defina quanto quer ganhar por hora e multiplique pelo tempo de cada serviço." },
+    { "tipo": "conteudo", "numero": "4", "titulo": "Adicione sua *margem*", "texto": "É o que sobra pra investir em curso, equipamento e reserva. Sem margem, não tem crescimento." },
+    { "tipo": "conteudo", "numero": "5", "titulo": "Olhe a *região* por último", "texto": "Concorrência é referência, não regra. Quem entrega mais pode cobrar mais." },
+    { "tipo": "final", "titulo": "Salva e refaz sua *tabela* hoje", "texto": "Manda pra aquele parceiro de profissão que cobra barato demais." }
+  ]
+}

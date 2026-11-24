@@ -1,0 +1,12 @@
+{
+  "assinatura": "@suabarbearia",
+  "slides": [
+    { "tipo": "capa", "titulo": "5 erros que *estragam* sua barba", "subtitulo": "O 3º quase todo mundo comete" },
+    { "tipo": "conteudo", "numero": "1", "titulo": "Lavar com *sabonete*", "texto": "Resseca o fio e a pele. Use shampoo próprio pra barba, 2 a 3 vezes por semana." },
+    { "tipo": "conteudo", "numero": "2", "titulo": "Pular a *hidratação*", "texto": "Óleo ou balm todo dia deixa o fio macio e acaba com a coceira." },
+    { "tipo": "conteudo", "numero": "3", "titulo": "Mexer no *contorno* sozinho", "texto": "Um passo a mais com a máquina e a linha sobe. Deixa o desenho com o barbeiro." },
+    { "tipo": "conteudo", "numero": "4", "titulo": "Não *pentear*", "texto": "Pentear no sentido do crescimento organiza os fios e ajuda a evitar pelo encravado." },
+    { "tipo": "conteudo", "numero": "5", "titulo": "Esperar demais pra *aparar*", "texto": "A cada 2 ou 3 semanas, uma manutenção mantém o formato sem perder comprimento." },
+    { "tipo": "final", "titulo": "Barba bem feita é *rotina*", "texto": "Salva esse post e agenda sua manutenção pelo link da bio." }
+  ]
+}
