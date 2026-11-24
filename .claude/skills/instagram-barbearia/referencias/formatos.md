@@ -1,6 +1,62 @@
 # Formatos de post
 
 Cada formato abaixo é o molde. Siga a estrutura, adapte o conteúdo.
+Lembre: falamos com **todo mundo**, em primeira pessoa, na voz do barbeiro.
+
+---
+
+## A. Reflexão / história pessoal (com foto dele)
+
+**Objetivo:** conexão. As pessoas seguem gente, não empresa.
+Estrutura: **cena → virada → lição → pergunta**.
+
+```
+# Reflexão — [tema]
+**Foto:** fotos/AAAA-MM-DD/arquivo.jpg
+
+## Legenda
+[GANCHO: uma frase que faz parar de rolar. Ex.: "Teve um dia que eu quase desisti."]
+
+[CENA: o que aconteceu / o que a foto mostra, em 2–3 linhas]
+
+[VIRADA: o que mudou, o que eu entendi]
+
+[LIÇÃO: trazida pra vida de quem lê — trabalho, família, autoestima]
+
+[PERGUNTA: "E você, ...?" ou "Marca alguém que precisa ler isso."]
+
+[HASHTAGS]
+```
+
+---
+
+## B. Post com foto (corte)
+
+**Objetivo:** mostrar o trabalho falando da **pessoa**, não da técnica.
+
+```
+# Post com foto — [tema]
+**Foto:** fotos/AAAA-MM-DD/arquivo.jpg
+
+## Legenda
+[GANCHO sobre o que o corte significa: "Corte novo, cabeça nova."]
+
+[EXEMPLO: o momento — entrevista, casamento, recomeço, só querer se sentir bem.
+ Se não souber a história real, fale de forma geral, sem inventar.]
+
+[DICA rápida pra manter: tempo de voltar, produto, como pentear]
+
+[CTA: "Bora renovar? Agenda pelo link da bio."]
+
+[HASHTAGS]
+```
+
+---
+
+## C. Carrossel com fotos
+
+Slide 1: capa com a melhor foto + título. Slides do meio: fotos (`"tipo": "foto"`) intercaladas
+com 1–2 slides de texto (reflexão ou dica). Último: fechamento + CTA.
 
 ---
 
@@ -40,7 +96,6 @@ Cada formato abaixo é o molde. Siga a estrutura, adapte o conteúdo.
 
 ```
 # Reflexão — [tema]
-**Público:** clientes / barbeiros
 **Formato visual:** frase em arte (fundo escuro, letra grande) ou foto de bastidor
 
 ## Frase da arte (máx. 15 palavras)
@@ -54,23 +109,22 @@ Cada formato abaixo é o molde. Siga a estrutura, adapte o conteúdo.
 [HASHTAGS]
 ```
 
-Bons temas: constância, cliente fiel vs. cliente de promoção, cuidar de si não é vaidade,
-começo de carreira, orgulho do ofício, gratidão pelos clientes.
+Bons temas: constância, cuidar de si não é vaidade, recomeço, família, gratidão,
+o cliente que virou amigo, o que a cadeira me ensinou sobre as pessoas.
 
 ---
 
-## 3. Carrossel (educativo)
+## 3. Carrossel de dicas (sem fotos)
 
 **Objetivo:** salvamentos e compartilhamentos — é o formato que mais faz o perfil crescer.
 
 Estrutura de slides:
-1. **Capa** — promessa clara. Ex.: "5 erros que estragam sua barba" / "Como cobrar mais sem perder cliente"
+1. **Capa** — promessa clara. Ex.: "5 erros que estragam sua barba" / "Como chegar arrumado numa entrevista"
 2. **Slides 2 a N-1** — 1 ideia por slide: título curto + 1 ou 2 frases.
 3. **Último slide** — resumo ou CTA: "Salva pra não esquecer" + @.
 
 ```
 # Carrossel — [tema]
-**Público:** clientes / barbeiros
 **Slides:** [n]
 
 ## Slides
@@ -97,7 +151,6 @@ Post único (1 imagem ou reels curto) com uma dica só.
 
 ```
 # Dica rápida — [tema]
-**Público:** clientes / barbeiros
 
 ## Texto da arte (máx. 12 palavras)
 [...]
@@ -143,14 +196,15 @@ Sequência de 3–5 telas: contexto → interação (enquete, caixinha, quiz) �
 ## 7. Calendário semanal
 
 Tabela com 1 post por dia útil, variando os formatos. Equilíbrio sugerido por semana:
-- 2 carrosséis (1 para clientes, 1 para barbeiros ou ambos para clientes, conforme o foco)
+- 1 reflexão / história pessoal (foto dele)
+- 1 post com foto de corte
+- 1 carrossel (com fotos ou de dicas pro cliente)
 - 1 indicação
-- 1 reflexão
 - 1 reels (antes/depois ou bastidor)
 - Stories todo dia (agenda do dia, horários livres, enquete)
 
 ```
-| Dia | Formato | Tema | Público | Objetivo |
+| Dia | Formato | Tema | Foto usada | Objetivo |
 |---|---|---|---|---|
 ```
 Depois da tabela, escreva todos os posts completos.

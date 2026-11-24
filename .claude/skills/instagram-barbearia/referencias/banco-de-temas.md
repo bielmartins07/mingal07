@@ -20,30 +20,28 @@ Use como ponto de partida. Marque mentalmente o que já foi postado (veja `posts
 - Cabelo crespo e cacheado: finalização e hidratação
 - O que pedir ao barbeiro: termos (pente 1, 2, navalhado, low/mid/high fade, risquinho)
 
-## Para barbeiros — profissão e técnica
-- Como montar sua tabela de preço (custo da cadeira + produto + tempo + margem)
-- Quando e como aumentar o preço sem perder cliente
-- Fidelização: plano mensal / assinatura de corte
-- Agenda cheia: confirmação no WhatsApp, política de atraso e falta
-- Biossegurança: esterilização, lâmina descartável por cliente, limpeza de máquina
-- Manutenção da máquina: lubrificar, ajustar lâmina, limpar
-- Degradê sem marcas: transição, pente, ângulo, luz
-- Como tirar foto do corte pro Instagram (luz, fundo, ângulos: frente, lados, nuca)
-- Ergonomia: postura, altura da cadeira, alongamento — barbeiro também cansa
-- Atendimento: consulta antes do corte, ouvir o cliente, recomendar produto
-- Vender produto na barbearia sem ser chato
-- Erros de quem está começando
-- Organização financeira: separar dinheiro da barbearia do pessoal
-- Cursos e evolução: técnica nova a cada mês
-- Como lidar com cliente insatisfeito
+## Vida pessoal e histórias (o coração do perfil)
+- Como comecei: o primeiro corte, a primeira cadeira, quem acreditou em mim
+- O que a cadeira me ensinou sobre as pessoas
+- O cliente que virou amigo (sem expor ninguém)
+- Família: por quem eu acordo cedo
+- Um dia difícil e o que me fez continuar
+- Conquista recente (pequena ou grande) e gratidão
+- Rotina: como é um dia meu do começo ao fim
+- Fé, disciplina, constância — do meu jeito
+- O bairro / a cidade: por que eu gosto de trabalhar aqui
+- Conselho que eu daria pra mim mesmo de 10 anos atrás
+- Por que se cuidar não é frescura: autoestima muda postura, entrevista, relacionamento
+- O momento em que o cliente se olha no espelho depois do corte
 
 ## Reflexões
 - "Constância vence talento que não aparece."
 - "Corte bom é aquele que o cliente lembra de você no espelho."
 - "Cliente de promoção vai embora na próxima promoção. Cliente de confiança fica."
 - "Cuidar da aparência não é vaidade, é respeito por você mesmo."
-- "Toda cadeira cheia começou com uma agenda vazia."
-- "Tesoura afiada, mente afiada."
+- "Todo sonho grande começou pequeno."
+- "Quem se cuida, se respeita."
+- "Não é só um corte. É o jeito que você vai encarar o dia."
 - "O detalhe que ninguém vê é o que todo mundo sente."
 
 ## Indicações

@@ -7,10 +7,12 @@
 //   "assinatura": "@suabarbearia",
 //   "slides": [
 //     { "tipo": "capa", "titulo": "...", "subtitulo": "..." },
+//     { "tipo": "foto", "foto": "fotos/2026-11-24/corte.jpg", "texto": "frase curta (opcional)" },
 //     { "tipo": "conteudo", "numero": "1", "titulo": "...", "texto": "..." },
 //     { "tipo": "final", "titulo": "...", "texto": "..." }
 //   ]
 // }
+// "foto" é opcional em qualquer slide (caminho relativo à raiz do repositório): vira o fundo do slide.
 // As cores são lidas de marca/perfil.md (seção "Identidade visual"), se existirem.
 
 const fs = require('fs');
@@ -35,18 +37,34 @@ function lerCores() {
   };
 }
 
+const MIME = { '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.png': 'image/png', '.webp': 'image/webp' };
+
+function fotoDataUri(caminho) {
+  if (!caminho) return null;
+  const arq = path.isAbsolute(caminho) ? caminho : path.join(RAIZ, caminho);
+  if (!fs.existsSync(arq)) throw new Error('Foto não encontrada: ' + caminho);
+  const ext = path.extname(arq).toLowerCase();
+  if (!MIME[ext]) throw new Error('Formato de foto não suportado (use jpg, png ou webp): ' + caminho);
+  return `data:${MIME[ext]};base64,${fs.readFileSync(arq).toString('base64')}`;
+}
+
 const esc = (s = '') =>
   String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
 function html(slide, idx, total, assinatura, c) {
   const tipo = slide.tipo || (idx === 0 ? 'capa' : idx === total - 1 ? 'final' : 'conteudo');
+  const foto = fotoDataUri(slide.foto);
   let corpo;
-  if (tipo === 'capa') {
+  if (tipo === 'foto') {
+    corpo = slide.texto || slide.titulo
+      ? `${slide.titulo ? `<h2 class="sobre-foto">${esc(slide.titulo)}</h2>` : ''}
+         ${slide.texto ? `<p class="texto">${esc(slide.texto)}</p>` : ''}`
+      : '';
+  } else if (tipo === 'capa') {
     corpo = `
       <div class="selo">💈</div>
       <h1 class="capa">${esc(slide.titulo)}</h1>
-      ${slide.subtitulo ? `<p class="sub">${esc(slide.subtitulo)}</p>` : ''}
-      <p class="arraste">arrasta pro lado →</p>`;
+      ${slide.subtitulo ? `<p class="sub">${esc(slide.subtitulo)}</p>` : ''}`;
   } else if (tipo === 'final') {
     corpo = `
       <h1 class="final">${esc(slide.titulo)}</h1>
@@ -73,16 +91,28 @@ function html(slide, idx, total, assinatura, c) {
     .texto { font-size:46px; line-height:1.4; opacity:.92; }
     h1.final + .texto { margin-top:44px; }
     .numero { font-size:150px; font-weight:900; color:${c.destaque}; line-height:1; margin-bottom:24px; }
-    .arraste { position:absolute; bottom:-40px; right:0; font-size:34px; opacity:.7; }
     .arroba { margin-top:70px; font-size:52px; font-weight:800; color:${c.destaque}; }
     .rodape { position:absolute; left:110px; right:110px; bottom:90px; display:flex; justify-content:space-between;
       font-size:30px; opacity:.6; }
+    .fundo-foto { position:absolute; inset:0; background-size:cover; background-position:${slide.posicao || 'center'}; }
+    .escurecer { position:absolute; inset:0;
+      background: linear-gradient(to bottom, rgba(0,0,0,${tipo === 'foto' ? '0' : '.25'}) 0%,
+        rgba(0,0,0,${tipo === 'foto' ? '0' : '.35'}) 40%, rgba(0,0,0,.88) 100%); }
+    body.com-foto .conteudo { justify-content:flex-end; }
+    body.com-foto h1, body.com-foto h2, body.com-foto .texto { text-shadow: 0 2px 12px rgba(0,0,0,.6); }
+    body.com-foto .selo { display:none; }
+    body.com-foto h1 { font-size:92px; }
+    body.tipo-foto .moldura { display:none; }
+    body.tipo-foto .conteudo { inset:auto 90px 150px 90px; }
+    body.tipo-foto .texto { font-size:44px; }
+    h2.sobre-foto { font-size:64px; margin-bottom:20px; }
     .barra { position:absolute; left:0; bottom:0; height:14px; background:${c.destaque};
       width:${Math.round(((idx + 1) / total) * 100)}%; }
-  </style></head><body>
+  </style></head><body class="${foto ? 'com-foto' : ''} tipo-${tipo}">
+    ${foto ? `<div class="fundo-foto" style="background-image:url('${foto}')"></div><div class="escurecer"></div>` : ''}
     <div class="moldura"></div>
     <div class="conteudo">${corpo}</div>
-    <div class="rodape"><span>${esc(assinatura)}</span><span>${idx + 1}/${total}</span></div>
+    <div class="rodape"><span>${esc(assinatura)}</span><span>${tipo === 'capa' ? 'arrasta pro lado →' : `${idx + 1}/${total}`}</span></div>
     <div class="barra"></div>
   </body></html>`;
 }
